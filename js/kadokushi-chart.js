@@ -32,8 +32,12 @@ const kadokushiChart = new Chart(kadokushi_ctx, {
     },
     plugins: {
       deferred: {
-        //yOffset: '40%', // defer until 50% of the canvas height are inside the viewport
+        yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
         delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
+      },
+      title: {
+        display: true,
+        text: 'Annual Cases of Kadokushi 2003-2016'
       }
     }
   }
