@@ -35,3 +35,8 @@ video {
   text-align: center;
 }
 
+footer {
+  width: 100vw;
+  max-width: 1536px;
+  margin: auto;
+}
