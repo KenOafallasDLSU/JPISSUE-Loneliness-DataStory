@@ -100,3 +100,9 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.caption-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}

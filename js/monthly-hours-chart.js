@@ -18,7 +18,7 @@ const monthlyHoursChart = new Chart(monthly_hours_ctx, {
       },
       scales: {
           y: {
-              beginAtZero: true
+              //beginAtZero: true
           }
       },
       plugins: {
