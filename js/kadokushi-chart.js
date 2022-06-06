@@ -41,7 +41,7 @@ const kadokushiChart = new Chart(kadokushi_ctx, {
       },
       title: {
         display: true,
-        text: 'Annual Cases of Kodokushi 2003-2016'
+        text: 'Annual Cases of Kodokushi in Tokyo 2003-2016'
       }
     }
   }

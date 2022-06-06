@@ -71,7 +71,7 @@ const ageChart = new Chart(age_ctx, {
       },
       title: {
         display: true,
-        text: 'Average Marrying Age 1950-2020'
+        text: 'Average Marrying Age in Japan 1950-2020'
       }
     }
   }

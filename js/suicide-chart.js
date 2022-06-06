@@ -3,10 +3,10 @@ const suicideChart = new Chart(suicide_ctx, {
   plugins: [ChartDeferred],
     type: 'bar',
     data: {
-        labels: [1995,2000,2005,2010,2014,2015,2016,2017,2018,2019,2020],
+        labels: [2010,2014,2015,2016,2017,2018,2019,2020],
         datasets: [{
             label: 'Number of Suicides',
-            data: [21420,30251,30553,29554,24417,23152,21021,20468,20031,19425,20243],
+            data: [29554,24417,23152,21021,20468,20031,19425,20243],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -32,7 +32,6 @@ const suicideChart = new Chart(suicide_ctx, {
       },
       scales: {
           y: {
-              beginAtZero: true
           }
       },
       plugins: {
