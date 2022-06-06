@@ -27,11 +27,11 @@ function gov_showSlides(n) {
   slides[gov_slideIndex-1].style.display = "block";
   dots[gov_slideIndex-1].className += " active";
   clearTimeout(gov_slideTimeOut)
-  gov_slideTimeOut = setTimeout(()=>gov_plusSlides(1), 5000)
+  gov_slideTimeOut = setTimeout(()=>gov_plusSlides(1), 10000)
 }
 
 let com_slideIndex = 1
-let com_slideTimeOut = setTimeout(()=>com_plusSlides(1), 3000)
+let com_slideTimeOut = setTimeout(()=>com_plusSlides(1), 6000)
 com_showSlides(com_slideIndex)
 
 // Next/previous controls
