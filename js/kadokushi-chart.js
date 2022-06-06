@@ -8,12 +8,16 @@ const kadokushiChart = new Chart(kadokushi_ctx, {
       {
         label: "Male",
         data: [1985,2092,2350,2362,2616,2577,2711,3141,3097,3057,3090,3091,3292,3190],
-        backgroundColor: "#3452eb"
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1
       },
       {
         label: "Female",
         data: [876,960,1033,1033,1334,1203,1164,1570,1393,1415,1425,1375,1398,1414],
-        backgroundColor: "#eb3434"
+        backgroundColor: ['rgba(255, 99, 132, 0.2)'],
+        borderColor: ['rgba(255, 99, 132, 1)'],
+        borderWidth: 1
       },
     ]
   },
@@ -37,7 +41,7 @@ const kadokushiChart = new Chart(kadokushi_ctx, {
       },
       title: {
         display: true,
-        text: 'Annual Cases of Kadokushi 2003-2016'
+        text: 'Annual Cases of Kodokushi 2003-2016'
       }
     }
   }

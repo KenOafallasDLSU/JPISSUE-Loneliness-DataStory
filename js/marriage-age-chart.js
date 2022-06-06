@@ -39,12 +39,16 @@ const ageChart = new Chart(age_ctx, {
       {
         label: "Male",
         data: [25.9,26.6,27.2,27.2,26.9,27.0,27.8,28.2,28.4,28.5,28.8,29.8,30.5,31.1,31.0],
-        backgroundColor: "#3452eb"
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1
       },
       {
         label: "Female",
         data: [23.0,23.8,24.4,24.5,24.2,24.7,25.2,25.5,25.9,26.3,27.0,28.0,28.8,29.4,29.4],
-        backgroundColor: "#eb3434"
+        backgroundColor: ['rgba(255, 99, 132, 0.2)'],
+        borderColor: ['rgba(255, 99, 132, 1)'],
+        borderWidth: 1
       },
     ]
   },

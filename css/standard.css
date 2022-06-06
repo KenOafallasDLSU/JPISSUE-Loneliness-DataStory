@@ -29,7 +29,7 @@ h2 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -52,8 +52,17 @@ p {
   align-items: center;
 }
 
+.stripe{
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  background-image: url("../img/stripe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 video {
-  width: 70%;
+  width: 100%;
 }
 
 .video {

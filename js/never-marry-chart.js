@@ -39,12 +39,16 @@ const neverChart = new Chart(never_ctx, {
       {
         label: "Male",
         data: [1.5,1.3,1.7,2.1,2.6,3.9,5.6,9.0,12.6,16.0,20.1,23.4,26.7],
-        backgroundColor: "#3452eb"
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1
       },
       {
         label: "Female",
         data: [1.4,1.9,3.3,4.3,4.5,4.3,4.3,5.1,5.8,7.3,10.6,14.1,17.5],
-        backgroundColor: "#eb3434"
+        backgroundColor: ['rgba(255, 99, 132, 0.2)'],
+        borderColor: ['rgba(255, 99, 132, 1)'],
+        borderWidth: 1
       },
     ]
   },
