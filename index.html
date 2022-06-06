@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="misc/balto-fonts.css">
     <link rel="stylesheet" href="css/standard.css">
     <link rel="stylesheet" href="css/charts.css">
     <link rel="stylesheet" href="css/carousel.css">
@@ -37,8 +38,11 @@
         This loneliness epidemic was also exacerbated by the extended isolation periods brought by the COVID-19 pandemic, with nearly 40% of Japanese feeling lonely. Of the 3,011 respondents, the majority were in their 20s at 42.7%, followed by those in their 30s and 40s, at 41.6% and 40.5% <a href="https://www.japantimes.co.jp/news/2022/03/19/national/social-issues/loneliness-survey-pandemic/" target="_blank">(Nearly 40% of People Feel Lonely in Japan, 2022)</a>. This points to the fact that loneliness is present and has serious consequences across all age groups in Japan—both young and old.
       </p>
 
-      <div class = "loneliness-pie-container">
-        <canvas id="loneliness-pie" width="400" height="400"></canvas>
+      <div class="background-canvas">
+        <div class="background-image" style="background-image: url(img/hero.jpg);"></div>
+        <div class = "loneliness-pie-container">
+          <canvas id="loneliness-pie" width="400" height="400"></canvas>
+        </div>
       </div>
       <script type="text/javascript" src="js/loneliness-pie.js"></script>
 
@@ -54,8 +58,11 @@
         Next, came the Lost Decade of Japan. This occurred during the 1990s and is called the Lost Decade due to the economic recession that hit Japan. As a result, many people, particularly males, were either forced to work long hours or not have work at all, therefore being unable to provide for their families <a href="https://www.anewseducation.com/post/japan-loneliness-issue" target="_blank">(Khan, 2021)</a>. Moreover, many students were also forced to work jobs that did not have adequate pay and no contractual guarantee. The work conditions did not fare any better. Many workers and student-workers were forced to work overtime and were underappreciated and they were oftentimes bullied in the workplace. As a result, these workers isolated themselves from society, eventually resulting in the creation of the Hikikomori phenomenon, where Japanese workers hide themselves from society.
       </p>
 
-      <div class = "weekly-hours-chart-container">
-        <canvas id="weekly-hours-chart" width="400" height="400"></canvas>
+      <div class="background-canvas">
+        <div class="background-image" style="background-image: url(img/hero.jpg);"></div>
+        <div class = "weekly-hours-chart-container">
+          <canvas id="weekly-hours-chart" width="400" height="400"></canvas>
+        </div>
       </div>
       <script type="text/javascript" src="js/weekly-hours-chart.js"></script>
 
@@ -71,11 +78,14 @@
         However, it is important to note that Japan's collectivist culture is actually what drives these factors: the demanding work culture established by the post-war modernization and the psychological effects of the lost decade—all of which gave rise to Japan's loneliness epidemic. Because of the country's collectivist culture, there is a huge socio-psychological pressure to conform to the norm. This pressure is mostly due to their fear of being excluded or ostracized from society, a term known as murahachibu in Japanese <a href="https://sunwayechomedia.com/2021/10/29/demystifying-hikikomori-the-hermits-of-modern-day-japan/" target="_blank">(Jing, 2021)</a>. This shame-based ostracism was widely-practiced during the Edo period (1603-1868) where villagers voted to exclude those who failed to conform to the social norms <a href="https://www.mpib-berlin.mpg.de/research/research-centers/history-of-emotions/blog-feeling-news/behind-the-mask-in-japan" target="_blank">(Toyota, 2020)</a>. This fear transforms into a variety of social expectations at home, in the workplace, and in society. There is pressure to excel, with strong emphasis on making yourself a contributing member of society. When they can't meet these expectations, they themselves feel “worthless,” and they are also subjected to shame by others. 
       </p>
 
-      <div class = "video">
-        <video controls>
-          <source src="img/pressure-parent.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
+      <div class="background-canvas">
+        <div class="background-image"></div>
+        <div class = "video">
+          <video controls>
+            <source src="img/pressure-parent.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
 
       <p>
@@ -122,8 +132,11 @@
         That is, of course, for the Japanese who marry in the first place. A much more concerning statistic is the percentage age of those in their 50s who have never married. Japan keeps track of this statistic because of the assumption that those who have not married by age 50 have an incredibly low probability of actually getting married. Unlike the increase in average marrying age, which while consistent is not that high, the number of Japanese age 50 who have never married has more than quintupled for men from 5.6% to 26.7% and more than quadrupled for women from 4.3% to 17.5% since the end of the lost decade. 
       </p>
   
-      <div class = "never-chart-container">
-        <canvas id="never-chart" width="400" height="400"></canvas>
+      <div class="background-canvas">
+        <div class="background-image" style="background-image: url(img/hero.jpg);"></div>
+        <div class = "never-chart-container">
+          <canvas id="never-chart" width="400" height="400"></canvas>
+        </div>
       </div>
       <script type="text/javascript" src="js/never-marry-chart.js"></script>
 
@@ -151,53 +164,58 @@
       <h1>Recovering through One Another</h1>
     </div>
 
-    <div class = "section" id = "government-initiatives">
+    <div class="section">
       <h2>Government Initiatives</h2>
 
       <p>
-        In order to solve Japan’s loneliness problem, the Japanese Government raised 3 initiatives in the midst of the COVID-19 pandemic. The initiatives are as follows:
+        In order to solve Japan's loneliness problem, the Japanese Government raised 3 initiatives in the midst of the COVID-19 pandemic. The initiatives are as follows:
       </p>
+    </div>
 
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
+    <div class="section-background">
+      <div class = "section initiatives" id = "government-initiatives">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="gov-slides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="img/gov-initiative-1.png" class="caption-image">
-          <div class="caption-bg">
-            <div class="text">
-              Last February 12, 2021, in hopes of implementing measures that will prevent social isolation and depression in the midst of the COVID-19 pandemic, the Japanese government appointed their 1st minister of Loneliness. Cabinet member Tetsushi Sakamoto would go on to serve as the 1st Minister of Loneliness. 
+          <!-- Full-width images with number and caption text -->
+          <div class="gov-slides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/gov-initiative-1.png" class="caption-image">
+            <div class="caption-bg">
+              <div class="text">
+                Last February 12, 2021, in hopes of implementing measures that will prevent social isolation and depression in the midst of the COVID-19 pandemic, the Japanese government appointed their 1st minister of Loneliness. Cabinet member Tetsushi Sakamoto would go on to serve as the 1st Minister of Loneliness. 
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="gov-slides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="img/gov-initiative-2.jpeg" class="caption-image">
-          <div class="caption-bg">
-            <div class="text">
-              Last 2020, the Japanese government conducted a nationwide census for their citizens as an initiative to counter COVID-19. Additionally, this nationwide census also took into account the Japanese population which were lonely due to the social isolation brought about by the COVID-19 pandemic.
+          <div class="gov-slides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/gov-initiative-2.jpeg" class="caption-image">
+            <div class="caption-bg">
+              <div class="text">
+                Last 2020, the Japanese government conducted a nationwide census for their citizens as an initiative to counter COVID-19. Additionally, this nationwide census also took into account the Japanese population which were lonely due to the social isolation brought about by the COVID-19 pandemic.
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="gov-slides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="img/gov-initiative-3.jpg" class="caption-image">
-          <div class="caption-bg">
-            <div class="text">
-              The Japanese government also conducted many forums that talked about ideas such as mental health amidst a pandemic and the history of their growing loneliness epidemic. One example would be the Prime Minister forum that occured last February 25,2021. In this forum Prime Minister Yoshihide Suga addressed concerns such as preventing loneliness and isolation, understanding anxiety and creating connections.
+          <div class="gov-slides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/gov-initiative-3.jpeg" class="caption-image">
+            <div class="caption-bg">
+              <div class="text">
+                The Japanese government also conducted many forums that talked about ideas such as mental health amidst a pandemic and the history of their growing loneliness epidemic. One example would be the Prime Minister forum that occured last February 25,2021. In this forum Prime Minister Yoshihide Suga addressed concerns such as preventing loneliness and isolation, understanding anxiety and creating connections.
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="gov_plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="gov_plusSlides(1)">&#10095;</a>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="gov_plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="gov_plusSlides(1)">&#10095;</a>
+        </div>
       </div>
-      <br>
+    </div>
 
+    <div class="section carousel-dots">
       <!-- The dots/circles -->
       <div style="text-align:center">
         <span class="gov-dot" onclick="gov_currentSlide(1)"></span>
@@ -206,53 +224,58 @@
       </div>
     </div>
 
-    <div class = "section" id = "community-initiatives">
+    <div class="section">
       <h2>Community Initiatives</h2>
 
       <p>
         Other than the government, the Japanese people also took into their own hands ways on how to solve their very own Loneliness epidemic. Here are 3 initiatives that they went for.
       </p>
-      
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
+    </div>
 
-        <!-- Full-width images with number and caption text -->
-        <div class="com-slides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="img/com-initiative-1.jpg" class="caption-image">
-          <div class="caption-bg">
-            <div class="text">
-              In Japan, one initiative that the community has created in hopes of fighting back against their loneliness epidemic would be the Rent a Family system. In this system, it is possible to rent out a family, whether it be for one simple dinner or one whole day. This service has been around Japan for as early as the 1990s. One of the main selling points of this service system is that it can serve as a band-aid solution to loneliness caused by isolation. 
+    <div class="section-background">
+      <div class = "section initiatives" id = "community-initiatives">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="com-slides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/com-initiative-1.jpg" class="caption-image">
+            <div class="caption-bg">
+              <div class="text">
+                In Japan, one initiative that the community has created in hopes of fighting back against their loneliness epidemic would be the Rent a Family system. In this system, it is possible to rent out a family, whether it be for one simple dinner or one whole day. This service has been around Japan for as early as the 1990s. One of the main selling points of this service system is that it can serve as a band-aid solution to loneliness caused by isolation. 
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="com-slides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="img/com-initiative-2.jpg" class="caption-image">
-          <div class="caption-bg">
-            <div class="text">
-              In Japan, it is possible to rent a girlfriend for a day through many websites. One example of a website would be Puchi-kano, where they allow you to rent a girlfriend for a day, allowing you to take her on a date just like a normal couple would. According to an interview, one of the motivations in creating these rent a girlfriend sites is that it hopes to decrease the number of teenage hikikomori.
+          <div class="com-slides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/com-initiative-2.jpg" class="caption-image">
+            <div class="caption-bg">
+              <div class="text">
+                In Japan, it is possible to rent a girlfriend for a day through many websites. One example of a website would be Puchi-kano, where they allow you to rent a girlfriend for a day, allowing you to take her on a date just like a normal couple would. According to an interview, one of the motivations in creating these rent a girlfriend sites is that it hopes to decrease the number of teenage hikikomori.
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="com-slides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="img/com-initiative-3.jpg" class="caption-image">
-          <div class="caption-bg">
-            <div class="text">
-              Simply being part of the activities of your Neighborhood Association in Japan would make you happier and less lonely. According to a research that was conducted by Tiefenbach, there was a strong correlation between participation in a Japanese Neighborhood Association and a person's happiness level. In fact, it was also found that loneliness was the main reason on why Japanese people would participate in their Neighborhood Association.
+          <div class="com-slides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/com-initiative-3.jpg" class="caption-image">
+            <div class="caption-bg">
+              <div class="text">
+                Simply being part of the activities of your Neighborhood Association in Japan would make you happier and less lonely. According to a research that was conducted by Tiefenbach, there was a strong correlation between participation in a Japanese Neighborhood Association and a person's happiness level. In fact, it was also found that loneliness was the main reason on why Japanese people would participate in their Neighborhood Association.
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="com_plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="com_plusSlides(1)">&#10095;</a>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="com_plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="com_plusSlides(1)">&#10095;</a>
+        </div>
       </div>
-      <br>
+    </div>
 
+    <div class="section carousel-dots">
       <!-- The dots/circles -->
       <div style="text-align:center">
         <span class="com-dot" onclick="com_currentSlide(1)"></span>
@@ -265,8 +288,11 @@
     <div class = "section" id = "positive-trends">
       <h2>Signs of Healing</h2>
 
-      <div class = "positive-chart-container">
-        <canvas id="positive-chart" width="400" height="400"></canvas>
+      <div class="background-canvas">
+        <div class="background-image" style="background-image: url(img/hero.jpg);"></div>
+        <div class = "positive-chart-container">
+          <canvas id="positive-chart" width="400" height="400"></canvas>
+        </div>
       </div>
       <script type="text/javascript" src="js/positive-chart.js"></script>
 
@@ -276,7 +302,7 @@
 
     </div>
 
-    <footer>
+    <!-- <footer>
       <p>
         This is the Footer <br><br>
 
@@ -285,6 +311,6 @@
         Erika Gruezo <br>
         Kenneth Oafallas <br>
       </p>
-    </footer>
+    </footer> -->
   </body>
 </html>

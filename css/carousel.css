@@ -106,3 +106,12 @@
   height: 500px;
   object-fit: cover;
 }
+
+.slideshow-container{
+  background-color: black;
+}
+
+.carousel-dots {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
